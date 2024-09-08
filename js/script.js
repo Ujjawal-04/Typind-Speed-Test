@@ -6,7 +6,7 @@ const typingText = document.querySelector(".typing-text p"),
       cpmTag = document.querySelector(".cpm span"),
       tryAgainbtn = document.querySelector("button");
 
-let timer, maxTime = 10, timeLeft = maxTime, charIndex = 0, mistakes = 0, isTyping = false;
+let timer, maxTime = 60, timeLeft = maxTime, charIndex = 0, mistakes = 0, isTyping = false;
 
 function randomParagraph() {
     let randIndex = Math.floor(Math.random() * paragraphs.length);
